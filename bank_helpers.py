@@ -261,7 +261,7 @@ def check_pin(pin: str) -> bool:
     return True
 
 def generate_txn_id() -> str:
-    utc_now = datetime.datetime.now(datetime.timezone.utc)
+    utc_now = datetime.now(timezone.utc)
     ts_ms = utc_now.strftime("%Y%m%d%H%M%S%f")[:-3]
     alphabet = string.ascii_uppercase + string.digits
     rand = "".join(secrets.choice(alphabet) for _ in range(6))
