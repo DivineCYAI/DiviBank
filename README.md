@@ -1,5 +1,5 @@
 # DiviBank
-Python banking application with NUBAN generation, phone validation, and transaction management
+Python banking application with NUBAN generation, phone validation, and transaction management.
 
 # DiviBank 🏦
 
@@ -26,7 +26,7 @@ This is a work in progress. Registration, login, validation, and the dashboard s
 ## Files
 
 - `bank_helpers.py` — all core logic: validation functions, custom exceptions, database setup, registration, login, and dashboard
-- `main.py` — entry point that runs the login/registration flow and launches the dashboard
+- `Divibank.py` — entry point that runs the login/registration flow and launches the dashboard
 
 ## Why This Project
 
